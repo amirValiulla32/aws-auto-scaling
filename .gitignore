@@ -1,0 +1,9 @@
+# Ignore Terraform local files
+.terraform/
+.terraform.lock.hcl
+
+# Ignore crash logs
+crash.log
+
+# Ignore any PEM keys just in case
+*.pem
